@@ -9,3 +9,5 @@ Források :
   https://eventland.eu/hu/budapest-hu/event/34740/kolodko/ – Libidó, Balta és Főkukac
   
   https://kolodkostatues.hu/szobrok/varos/budapest – Budapest összes Kolodko-miniszobra.
+
+  chatgpt.com
