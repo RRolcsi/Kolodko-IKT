@@ -15,3 +15,11 @@ Források :
   https://kolodkostatues.hu/terkep
 
   https://maps.app.goo.gl/5UpSD1GcegRXmhpr8
+
+  https://hvg.hu/360/201951_kolodko_mihaly
+
+  https://olyanjo.hu/cikk/kolodko-szobrok-terkep-az-osszes-hazai-kolodko-miniszobrok-terkepen/
+
+  https://www.noklapja.hu/hetilap/2024/08/24/a-papahoz-is-eljutott-egy-alkotasa-beszelgetes-kolodko-mihaly-szobraszmuvesszel/
+
+  https://meglepetes.hu/riportok/2018/09/07/kolodko-mihaly-a-lakasban-ezek-a-figurak-megfulladnanak/
