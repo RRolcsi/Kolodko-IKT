@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Szobrok és nevezetességek</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Mentett nyelv betöltése még a megjelenés előtt (ne villanjon fel a magyar szöveg) -->
+  <script>
+    try { if (localStorage.getItem('nyelv') === 'en') document.documentElement.classList.add('en'); } catch (e) {}
+  </script>
+</head>
+<body data-title-hu="Szobrok és nevezetességek" data-title-en="Sculptures and Landmarks">
+
+  <!-- Navigáció + nyelvváltó gomb -->
+  <nav class="site-nav navbar">
+    <div class="container-fluid px-4 px-md-5 d-flex align-items-center justify-content-between flex-wrap gap-2">
+      <a class="logo" href="index.html">KOLODKO MIHÁLY</a>
+      <div class="nav-right d-flex align-items-center flex-wrap">
+        <a href="index.html">
+          <span class="lang-hu">Főoldal</span>
+          <span class="lang-en">Home</span>
+        </a>
+        <a href="kolodko.html">
+          <span class="lang-hu">Kolodko Mihály</span>
+          <span class="lang-en">Mihály Kolodko</span>
+        </a>
+        <a href="szobrok-nevezetessegek.html" class="active" aria-current="page">
+          <span class="lang-hu">Szobrok és nevezetességek</span>
+          <span class="lang-en">Sculptures and Landmarks</span>
+        </a>
+        <button id="lang-toggle" class="lang-btn" type="button" aria-label="Nyelv / Language">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fejléc -->
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <h1>
+        <span class="lang-hu">Szobrok és nevezetességek</span>
+        <span class="lang-en">Sculptures and Landmarks</span>
+      </h1>
+      <p>
+        <span class="lang-hu">Kolodko miniszobrai és Budapest látványosságai</span>
+        <span class="lang-en">Kolodko’s miniature sculptures and the sights of Budapest</span>
+      </p>
+    </div>
+  </header>
+
+  <main class="container" id="about">
+
+    <!-- Szobrok -->
+    <section class="page-section" id="szobrok">
+    <div class="intro">
+      <h2>
+        <span class="lang-hu">Kolodko szobrai</span>
+        <span class="lang-en">Kolodko’s Sculptures</span>
+      </h2>
+    </div>
+    <nav class="chips" aria-label="Szobrok / Sculptures"><a href="#szobor-1"><span class="lang-hu">Nincs kompót</span><span class="lang-en">No Compote</span></a><a href="#szobor-2"><span class="lang-hu">Főkukac (II.)</span><span class="lang-en">Főkukac (II.)</span></a><a href="#szobor-3"><span class="lang-hu">Piszkos Fred, a kapitány</span><span class="lang-en">Dirty Fred, the Captain</span></a><a href="#szobor-4"><span class="lang-hu">Libidó (Lufikutya csonttal)</span><span class="lang-en">Libido (Balloon Dog with a Bone)</span></a><a href="#szobor-5"><span class="lang-hu">Rubik-kocka (II.)</span><span class="lang-en">Rubik's Cube (II.)</span></a><a href="#szobor-6"><span class="lang-hu">Szomorú tank</span><span class="lang-en">Sad Tank</span></a><a href="#szobor-7"><span class="lang-hu">Balta</span><span class="lang-en">Axe</span></a><a href="#szobor-8"><span class="lang-hu">Pinocchio</span><span class="lang-en">Pinocchio</span></a></nav>
+
+    <article class="item-card" id="szobor-1">
+      <div class="item-head">
+        <span class="item-num">1</span>
+        <h3>
+          <span class="lang-hu">Nincs kompót</span>
+          <span class="lang-en">No Compote</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Nincs kompót Kolodko Mihály egyik humoros, de egyben elgondolkodtató alkotása. A szobor egy orosz katonát ábrázol, aki egy kamrában rejtőzik. Az elnevezés az ismert magyar filmre, A tizedes meg a többiek című alkotásra utal, amelyben elhangzik a híres mondat: „Az oroszok már a spájzban vannak.” A szobor azonban nem kizárólag a filmre emlékeztet, hanem az orosz–ukrán háborúra is reflektál. Kolodko ezzel az alkotással megmutatja, hogy a humor segítségével komoly témákról is lehet beszélni.</p>
+        <p class="opinion">Nekem azért tetszik, mert elsőre viccesnek tűnik, de ha jobban belegondolunk, sokkal komolyabb jelentése van.</p>
+      </div>
+      <div class="lang-en">
+        <p>No Compote is one of Mihály Kolodko's humorous but also thought-provoking artworks. The statue depicts a Russian soldier hiding in a pantry. Its name refers to the famous Hungarian film <em>The Corporal and the Others</em>, in which the well-known sentence can be heard: "The Russians are already in the pantry." However, the statue does not only remind people of the film, but also refers to the Russian-Ukrainian war. With this artwork, Kolodko shows that serious topics can also be discussed through humour.</p>
+        <p class="opinion">I like it because at first it seems funny, but when we think about it more deeply, it has a much more serious meaning.</p>
+      </div>
+    </article>
+    <article class="item-card" id="szobor-2">
+      <div class="item-head">
+        <span class="item-num">2</span>
+        <h3>
+          <span class="lang-hu">Főkukac (II.)</span>
+          <span class="lang-en">Főkukac (II.)</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>Főkukac a magyar rajzfilmek egyik legismertebb szereplője, akit Kolodko Mihály egy apró bronzszobor formájában örökített meg. A figura A nagy ho-ho-ho horgász című rajzfilmsorozatból lehet ismerős. A szobor a budapesti Duna-parton található, és egy horgászathoz kapcsolódó karaktert ábrázol.</p>
+        <p>Különösen érdekes, hogy egy ilyen egyszerű, kedves figura is helyet kaphat a köztéri művészetben. Sokan gyerekkorukból ismerik a rajzfilmet, ezért a szobor kellemes emlékeket idézhet fel bennük.</p>
+        <p class="opinion">Szerintem ez az egyik legaranyosabb Kolodko-alkotás, mert nem akar túl komoly lenni, egyszerűen csak mosolyt csal az emberek arcára. Ráadásul a Duna-parti környezet is jól illik hozzá.</p>
+      </div>
+      <div class="lang-en">
+        <p>Főkukac is one of the best-known characters in Hungarian cartoons, brought to life by Mihály Kolodko in the form of a small bronze statue. The character may be familiar from the Hungarian cartoon series <em>The Great Ho-Ho-Ho Fisherman</em>. The statue is located on the Danube riverbank in Budapest and represents a character connected to fishing.</p>
+        <p>It is especially interesting that such a simple and friendly figure can also have a place in public art. Many people remember the cartoon from their childhood, so the statue can bring back pleasant memories.</p>
+        <p class="opinion">In my opinion, this is one of Kolodko's cutest artworks because it does not try to be too serious. It simply brings a smile to people's faces. The location along the Danube also suits the character very well.</p>
+      </div>
+    </article>
+    <article class="item-card" id="szobor-3">
+      <div class="item-head">
+        <span class="item-num">3</span>
+        <h3>
+          <span class="lang-hu">Piszkos Fred, a kapitány</span>
+          <span class="lang-en">Dirty Fred, the Captain</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>Piszkos Fred, a kapitány Rejtő Jenő egyik legismertebb regényfigurája. A különös külsejű kapitány kalandos történeteivel és sajátos humorával vált népszerűvé. Kolodko Mihály ezt a karaktert is megörökítette egy miniatűr szoborban, így az irodalmi szereplő a könyvek lapjai közül a budapesti utcákra került.</p>
+        <p>Rejtő Jenő műveinek egyik legnagyobb erőssége, hogy még a legfurcsább helyzeteket is képes humorosan bemutatni. Piszkos Fred tökéletesen illik ebbe a világba, hiszen nem egy hagyományos hős, hanem egy különc, sokszor kiszámíthatatlan figura. A szobor azért is érdekes, mert nem egy történelmi személyt vagy híres épületet jelenít meg, hanem egy kitalált karaktert.</p>
+        <p class="opinion">Szerintem ezzel Kolodko egy kicsit az olvasás és a magyar irodalom szeretetére is felhívja a figyelmet.</p>
+      </div>
+      <div class="lang-en">
+        <p>Dirty Fred, the Captain is one of the best-known fictional characters created by Jenő Rejtő. The unusual-looking captain became popular because of his adventurous stories and distinctive sense of humour. Mihály Kolodko also immortalised this character in a miniature statue, bringing the literary figure from the pages of books into the streets of Budapest.</p>
+        <p>One of the greatest strengths of Jenő Rejtő's works is that even the strangest situations are presented in a humorous way. Dirty Fred fits perfectly into this world because he is not a traditional hero, but rather an eccentric and often unpredictable character. The statue is also interesting because it does not represent a historical person or a famous building, but a fictional character.</p>
+        <p class="opinion">I think that through this artwork, Kolodko also draws attention to the love of reading and Hungarian literature.</p>
+      </div>
+    </article>
+    <article class="item-card" id="szobor-4">
+      <div class="item-head">
+        <span class="item-num">4</span>
+        <h3>
+          <span class="lang-hu">Libidó (Lufikutya csonttal)</span>
+          <span class="lang-en">Libido (Balloon Dog with a Bone)</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Libidó egy lufikutya formájú miniszobor, amely egy csontot tart a szájában. Első pillantásra olyan, mintha egy rendezvényen hajtogatott lufiból készült volna, valójában azonban fémből alkotott szobor. A mű különlegessége, hogy egy egyszerű, játékos ötletből készít műalkotást.</p>
+        <p>Megjelenése Jeff Koons amerikai művész híres Balloon Dog című alkotását is eszünkbe juttathatja. A neve szintén érdekes, hiszen a „libidó” szó általában az emberi vágyakkal kapcsolatos, ami még humorosabbá teszi az elnevezést. Kolodko Mihály sok más alkotásához hasonlóan itt sem a hagyományos szobrászati megoldásokat követi.</p>
+        <p class="opinion">Szerintem ez a mű azért jó példa a kreativitásra, mert megmutatja, hogy egy hétköznapi tárgy is lehet művészet, ha valaki más szemszögből közelíti meg.</p>
+      </div>
+      <div class="lang-en">
+        <p>Libido is a miniature statue in the shape of a balloon dog holding a bone in its mouth. At first glance, it looks as if it were made from an ordinary balloon twisted at an event, but it is actually a metal sculpture. What makes the artwork special is that it turns a simple, playful idea into a work of art.</p>
+        <p>Its appearance may also remind us of the famous artwork <em>Balloon Dog</em> by American artist Jeff Koons. The name is also interesting, as the word "libido" is generally associated with human desires, which makes the title even more humorous. Like many of Kolodko Mihály's other works, this sculpture does not follow traditional sculptural methods.</p>
+        <p class="opinion">I think this artwork is a good example of creativity because it shows that even an everyday object can become art if someone looks at it from a different perspective.</p>
+      </div>
+    </article>
+    <article class="item-card" id="szobor-5">
+      <div class="item-head">
+        <span class="item-num">5</span>
+        <h3>
+          <span class="lang-hu">Rubik-kocka (II.)</span>
+          <span class="lang-en">Rubik's Cube (II.)</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Rubik-kocka Magyarország egyik legismertebb találmánya, ezért nem meglepő, hogy Kolodko Mihály is készített róla egy miniszobrot. A játékot Rubik Ernő alkotta meg 1974-ben, és azóta világszerte rengetegen próbálják kirakni. A szobor egy Rubik-kockát ábrázol, amely mintha éppen legurulna valahonnan.</p>
+        <p>Ez az apró részlet teszi mozgalmassá az alkotást. A kocka elsőre egyszerű játéknak tűnik, de a megoldása logikus gondolkodást és sok gyakorlást igényel. A találmány mára a magyar kreativitás egyik jelképe lett.</p>
+        <p class="opinion">Nekem azért tetszik ez a szobor, mert nemcsak egy játékot ábrázol, hanem egy olyan magyar találmányra emlékeztet, amelyet szinte az egész világ ismer.</p>
+      </div>
+      <div class="lang-en">
+        <p>The Rubik's Cube is one of Hungary's best-known inventions, so it is not surprising that Mihály Kolodko also created a miniature statue of it. The puzzle was invented by Ernő Rubik in 1974, and since then, countless people around the world have tried to solve it. The statue shows a Rubik's Cube that looks as if it is just about to roll away.</p>
+        <p>This small detail makes the artwork look more dynamic. At first, the cube seems like a simple toy, but solving it requires logical thinking and a lot of practice. Today, the invention has become one of the symbols of Hungarian creativity.</p>
+        <p class="opinion">I like this statue because it does not simply represent a toy, but reminds us of a Hungarian invention that is known almost all over the world.</p>
+      </div>
+    </article>
+    <article class="item-card" id="szobor-6">
+      <div class="item-head">
+        <span class="item-num">6</span>
+        <h3>
+          <span class="lang-hu">Szomorú tank</span>
+          <span class="lang-en">Sad Tank</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Szomorú tank Kolodko Mihály egyik komolyabb mondanivalójú alkotása. A kis harckocsi különlegessége, hogy a lövegcsöve lefelé néz, mintha szomorú lenne. Az oldalán a „Ruszkik haza!” felirat olvasható, amely az 1956-os magyar forradalomhoz kapcsolódik.</p>
+        <p>A tank a háborút és a katonai megszállást idézi fel, de a lefelé hajló cső inkább a béke iránti vágyat jelképezheti. Az alkotás azért is érdekes, mert egy olyan történelmi eseményre emlékeztet, amely Magyarország múltjának fontos része. Bár a szobor alig néhány centiméteres, a jelentése sokkal nagyobb, mint amekkorának elsőre látszik.</p>
+        <p class="opinion">Szerintem ez jól mutatja Kolodko művészetének egyik legfontosabb tulajdonságát: a kis méret ellenére is képes komoly gondolatokat közvetíteni.</p>
+      </div>
+      <div class="lang-en">
+        <p>The Sad Tank is one of Mihály Kolodko's artworks with a more serious message. The special feature of the small tank is that its cannon points downwards, making it look as if it were sad. The inscription "Russians, go home!" can be seen on its side, referring to the Hungarian Revolution of 1956.</p>
+        <p>The tank represents war and military occupation, but its lowered cannon may symbolise the desire for peace. The artwork is interesting because it reminds us of an important historical event in Hungary's past. Although the statue is only a few centimetres tall, its meaning is much greater than its size might suggest.</p>
+        <p class="opinion">I think this shows one of the most important characteristics of Kolodko's art: even his smallest works can communicate serious ideas.</p>
+      </div>
+    </article>
+    <article class="item-card" id="szobor-7">
+      <div class="item-head">
+        <span class="item-num">7</span>
+        <h3>
+          <span class="lang-hu">Balta</span>
+          <span class="lang-en">Axe</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Balta Kolodko Mihály egyik legérdekesebb történetű miniszobra. Egy apró baltát ábrázol, amely egy elegáns párnán fekszik. Elsőre talán nem is érti az ember, hogy miért került egy ilyen hétköznapi tárgy a város közepére. A történet egy korábbi Kolodko-szoborhoz, az Usánkához kapcsolódik.</p>
+        <p>Az eredeti alkotást valaki eltávolította a helyéről, majd a Dunába dobta. A művész erre az eseményre reagált a baltával, amely az usánka korábbi helyére került. Így a Balta tulajdonképpen egyfajta művészi válasz lett a rongálásra.</p>
+        <p class="opinion">Nekem azért tetszik ez az ötlet, mert Kolodko nem egyszerűen újabb szobrot készített, hanem a történteket is beépítette a művészetébe. Ez jól mutatja, hogy az alkotásai gyakran a körülöttünk zajló eseményekre is reagálnak.</p>
+      </div>
+      <div class="lang-en">
+        <p>The Axe is one of Mihály Kolodko's miniature statues with the most interesting background stories. It depicts a small axe resting on an elegant cushion. At first, people might not understand why such an everyday object has been placed in the middle of the city. The story is connected to one of Kolodko's earlier statues, the Ushanka.</p>
+        <p>The original artwork was removed from its location by someone and thrown into the Danube. The artist responded to this incident by creating the axe, which was placed where the Ushanka had previously stood. In this way, the Axe became a kind of artistic response to the vandalism.</p>
+        <p class="opinion">I like this idea because Kolodko did not simply create another statue, but turned the incident itself into part of his art. This shows that his works often respond to events happening around us.</p>
+      </div>
+    </article>
+    <article class="item-card" id="szobor-8">
+      <div class="item-head">
+        <span class="item-num">8</span>
+        <h3>
+          <span class="lang-hu">Pinocchio</span>
+          <span class="lang-en">Pinocchio</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>Pinocchio egy világhírű mesefigura, akit Carlo Collodi olasz író történetéből ismerhetünk. A fabábu legismertebb tulajdonsága, hogy minden alkalommal megnő az orra, amikor hazudik. Kolodko Mihály ezt a karaktert is megjelenítette egy apró köztéri szoborban.</p>
+        <p>A történet eredetileg gyerekeknek szól, de fontos tanulságokat tartalmaz az őszinteségről és a felelősségvállalásról is. Pinocchio a mese során sok hibát követ el, de idővel megtanulja, hogyan kell helyesen viselkedni. A figura azért vált ennyire ismertté, mert a története egyszerűen érthető, mégis minden korosztály számára tartogat mondanivalót.</p>
+        <p class="opinion">Szerintem jó választás volt Kolodko részéről, hiszen Pinocchio egy olyan karakter, akit szinte mindenki felismer, és akiről mindenkinek eszébe jut valami a gyerekkorából.</p>
+      </div>
+      <div class="lang-en">
+        <p>Pinocchio is a world-famous fairy-tale character from the story written by Italian author Carlo Collodi. The wooden puppet is best known for his nose growing every time he tells a lie. Mihály Kolodko also brought this character to life in the form of a small public statue.</p>
+        <p>The story was originally written for children, but it also contains important lessons about honesty and taking responsibility. During the story, Pinocchio makes many mistakes, but eventually learns how to behave properly. The character became so famous because his story is easy to understand, yet it has a message for people of all ages.</p>
+        <p class="opinion">I think Pinocchio was a good choice for Kolodko because he is a character that almost everyone recognises and who reminds many people of their childhood.</p>
+      </div>
+    </article>
+    </section>
+
+    <!-- Nevezetességek -->
+    <section class="page-section" id="nevezetessegek">
+    <div class="intro">
+      <h2>
+        <span class="lang-hu">Budapest nevezetességei</span>
+        <span class="lang-en">Landmarks of Budapest</span>
+      </h2>
+    </div>
+    <nav class="chips" aria-label="Nevezetességek / Landmarks"><a href="#hely-1"><span class="lang-hu">Várkert Bazár</span><span class="lang-en">Várkert Bazár</span></a><a href="#hely-2"><span class="lang-hu">Ybl Miklós szobra</span><span class="lang-en">Statue of Miklós Ybl</span></a><a href="#hely-3"><span class="lang-hu">Szilágyi Dezső tér</span><span class="lang-en">Szilágyi Dezső Square</span></a><a href="#hely-4"><span class="lang-hu">Szent Anna-templom</span><span class="lang-en">Saint Anne’s Church</span></a><a href="#hely-5"><span class="lang-hu">Magyar Tudományos Akadémia</span><span class="lang-en">Hungarian Academy of Sciences</span></a><a href="#hely-6"><span class="lang-hu">Alejandra’s Park</span><span class="lang-en">Alejandra’s Park</span></a><a href="#hely-7"><span class="lang-hu">Széchenyi Lánchíd</span><span class="lang-en">Széchenyi Chain Bridge</span></a><a href="#hely-8"><span class="lang-hu">Szabadság tér</span><span class="lang-en">Liberty Square</span></a></nav>
+
+    <article class="item-card" id="hely-1">
+      <div class="item-head">
+        <span class="item-num">1</span>
+        <h3>
+          <span class="lang-hu">Várkert Bazár</span>
+          <span class="lang-en">Várkert Bazár</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Várkert Bazár Budapest egyik különleges és látványos épületegyüttese, amely a budai Várhegy lábánál, közvetlenül a Duna partján található. Az épületet Ybl Miklós tervei alapján építették a 19. században, és 1883-ban adták át. A neoreneszánsz stílusú épületegyüttes eredetileg üzleteknek, műtermeknek és különböző kulturális céloknak adott helyet.</p>
+        <p>A Várkert Bazár különlegessége, hogy egyszerre kapcsolódik a budai Vár történelmi környezetéhez és a Duna-part látványához. Az épületet az idők során többször felújították, mert állapota jelentősen leromlott. A nagyobb rekonstrukció után ismét régi szépségében látogatható.</p>
+        <p>Ma kiállításokat, koncerteket, rendezvényeket és más kulturális programokat tartanak itt. A kertjei és lépcsősorai kellemes sétálási lehetőséget biztosítanak, miközben szép kilátás nyílik a Dunára és Pest városrészére. A Várkert Bazár nemcsak egy történelmi műemlék, hanem Budapest egyik fontos kulturális találkozóhelye is.</p>
+        <p class="opinion">Szerintem azért érdemes meglátogatni, mert az építészet, a történelem és a modern kulturális élet egyszerre jelenik meg benne.</p>
+      </div>
+      <div class="lang-en">
+        <p>The Várkert Bazár is one of the most beautiful and interesting architectural complexes in Budapest. It is located at the foot of Castle Hill, next to the Danube River, on the Buda side of the city. The building was designed by the famous Hungarian architect Miklós Ybl and opened in 1883.</p>
+        <p>It was built in Neo-Renaissance style, which can be seen in its decorative details, elegant arches and carefully designed façades. Originally, the complex contained shops, artists’ studios and spaces for cultural activities. Over the years, the building became damaged and needed major restoration.</p>
+        <p>After a large renovation project, it was reopened and became an important cultural centre again. Today, visitors can enjoy exhibitions, concerts, festivals and other events there. The gardens, terraces and stairways make the area a pleasant place for walking and relaxing.</p>
+        <p>The location also offers beautiful views of the Danube and the buildings on the Pest side. The Várkert Bazár is interesting because it connects the history of Budapest with modern cultural life. It is not only an impressive monument but also a popular meeting place.</p>
+        <p class="opinion">In my opinion, it is worth visiting because people can admire its architecture, learn about its past and enjoy the atmosphere of the riverbank.</p>
+      </div>
+    </article>
+    <article class="item-card" id="hely-2">
+      <div class="item-head">
+        <span class="item-num">2</span>
+        <h3>
+          <span class="lang-hu">Ybl Miklós szobra</span>
+          <span class="lang-en">Statue of Miklós Ybl</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>Ybl Miklós szobra Budapest építészeti és kulturális emlékei közé tartozik. Ybl Miklós a 19. század egyik legismertebb magyar építésze volt, aki 1814-ben született és 1891-ben halt meg. Munkássága nagy hatással volt Budapest mai arculatára, hiszen számos jelentős épület tervezése fűződik a nevéhez.</p>
+        <p>Leghíresebb alkotásai közé tartozik az Operaház és a Várkert Bazár, de több palotát, templomot és középületet is tervezett. Épületeire gyakran jellemző a neoreneszánsz stílus, a díszes homlokzat és a gondosan megtervezett részletek. A szobor azért fontos, mert emléket állít annak az embernek, aki sokat tett a magyar építészet fejlődéséért.</p>
+        <p>Az ilyen emlékművek segítenek abban, hogy a város lakói és látogatói megismerjék a múlt jelentős személyiségeit. Ybl Miklós munkái ma is meghatározzák Budapest több részének látványát, ezért neve szorosan összekapcsolódik a főváros történetével. A szobornál megállva könnyebb elképzelni, milyen fontos szerepet játszott egy tehetséges építész a város fejlődésében.</p>
+        <p class="opinion">Szerintem érdemes megismerni Ybl Miklós életét, mert alkotásai ma is értékes részei Budapest örökségének.</p>
+      </div>
+      <div class="lang-en">
+        <p>The statue of Miklós Ybl commemorates one of the most important Hungarian architects of the nineteenth century. Miklós Ybl was born in 1814 and died in 1891. His work had a great influence on the appearance and development of Budapest.</p>
+        <p>He designed many important buildings, including the Hungarian State Opera House and the Várkert Bazár. His architecture is often connected with the Neo-Renaissance style, which is known for its elegant proportions, decorative façades and carefully planned details. Ybl also designed palaces, churches and public buildings, so his influence can be seen in several parts of the capital.</p>
+        <p>The statue reminds visitors that the beauty of a city is often created by talented people whose work lasts for generations. It also gives people an opportunity to learn about Hungarian cultural history. Many of Ybl’s buildings are still admired by residents and tourists today.</p>
+        <p>They are important not only because of their appearance but also because they show the artistic ideas and technical knowledge of their period. When people see the statue, they can remember the architect behind some of Budapest’s best-known landmarks.</p>
+        <p class="opinion">In my opinion, Miklós Ybl deserves to be remembered because his buildings have become an essential part of the city’s identity. His work shows how architecture can shape the character of a capital city.</p>
+      </div>
+    </article>
+    <article class="item-card" id="hely-3">
+      <div class="item-head">
+        <span class="item-num">3</span>
+        <h3>
+          <span class="lang-hu">Szilágyi Dezső tér</span>
+          <span class="lang-en">Szilágyi Dezső Square</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Szilágyi Dezső tér Budapest budai oldalán, a Duna közelében található tér. A környék egyik legismertebb épülete a református templom, amely különleges megjelenésével könnyen felismerhető. A templomot Pecz Samu tervezte, és a 19. század végén épült. Neogótikus stílusú, vörös téglás falai, magas tornya és díszes részletei miatt jelentősen eltér a környék sok más épületétől.</p>
+        <p>A tér elhelyezkedése is különleges, hiszen közel van a Duna-parthoz és a Lánchíd budai hídfőjéhez. Emiatt a környék jó kiindulópont lehet egy városi sétához. A tér nemcsak közlekedési és találkozási hely, hanem történelmi és építészeti szempontból is érdekes. A templom a budapesti református közösség fontos épülete, és ma is vallási, valamint közösségi célokat szolgál.</p>
+        <p>A környéken sétálva egyszerre lehet megfigyelni a régi budai városrészek hangulatát és a Duna-part nyüzsgését. A Szilágyi Dezső tér azért is figyelemre méltó, mert jól példázza, hogyan kapcsolódhat össze egy városi tér, egy jelentős épület és a folyó közelsége.</p>
+        <p class="opinion">Szerintem érdemes felkeresni, mert nyugodtabb hangulatú hely, mégis sok érdekes látnivaló található a közelében.</p>
+      </div>
+      <div class="lang-en">
+        <p>Szilágyi Dezső Square is situated on the Buda side of Budapest, close to the Danube River. One of its most famous landmarks is the Reformed Church, which is easy to recognise because of its unusual red-brick exterior and tall tower. The church was designed by Samu Pecz and built at the end of the nineteenth century. Its Neo-Gothic style includes pointed arches, decorative details and a distinctive roof.</p>
+        <p>The square is also interesting because it is close to the riverbank and the Buda end of the Chain Bridge. This makes it a useful starting point for exploring the surrounding area on foot. The church is an important building for the local Reformed community and continues to serve religious and community purposes. Visitors can admire its architecture and learn more about the history of the neighbourhood.</p>
+        <p>The square combines the atmosphere of historic Buda with the movement and activity of the Danube embankment. There are several other attractions within walking distance, so it can easily be included in a longer city walk.</p>
+        <p class="opinion">In my opinion, Szilágyi Dezső Square is worth visiting because it offers a quieter atmosphere while still being close to some of Budapest’s best-known sights. The red-brick church makes the square especially memorable and gives this part of the city a distinctive character.</p>
+      </div>
+    </article>
+    <article class="item-card" id="hely-4">
+      <div class="item-head">
+        <span class="item-num">4</span>
+        <h3>
+          <span class="lang-hu">Szent Anna-templom</span>
+          <span class="lang-en">Saint Anne’s Church</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Szent Anna-templom Budapest egyik jelentős barokk temploma, amely a budai oldalon, a Batthyány téren található. Az épület a 18. században készült, és hosszú építéstörténete során több változáson ment keresztül. Külső megjelenését a barokk stílus határozza meg, amelyre jellemző a díszes homlokzat, a tornyok és a mozgalmas építészeti formák.</p>
+        <p>A templom belsejében szintén gazdag díszítés látható: oltárok, szobrok és festmények teszik különlegessé a teret. A Szent Anna-templom nemcsak vallási helyszín, hanem történelmi és művészeti értéket is képvisel. A Batthyány tér elhelyezkedése miatt könnyen megközelíthető, ráadásul a közeléből szép kilátás nyílik a Parlamentre és a Duna túlpartjára.</p>
+        <p>A környék fontos közlekedési csomópont, ezért sok helyi lakos és turista is megfordul itt. A templom csendes belső tere jó lehetőséget ad arra, hogy a látogatók egy rövid időre megpihenjenek a város nyüzsgésében. Az épület története Budapest múltjának egy fontos részét mutatja be, és jól szemlélteti a barokk építészet szépségét.</p>
+        <p class="opinion">Szerintem érdemes meglátogatni, mert egyszerre nyújt kulturális, történelmi és építészeti élményt.</p>
+      </div>
+      <div class="lang-en">
+        <p>Saint Anne’s Church is an important Baroque church in Budapest. It stands on Batthyány Square, on the Buda side of the Danube. The church was built during the eighteenth century, and its construction history included several stages and changes.</p>
+        <p>Its exterior is known for its elegant Baroque design, decorative façade and towers. The interior is also impressive, with decorated altars, sculptures and paintings that create a rich and peaceful atmosphere. The church is not only a place of worship but also an important historical and artistic monument.</p>
+        <p>Its location makes it easy to visit, because Batthyány Square is a major transport hub. The area is also famous for its beautiful view across the Danube towards the Hungarian Parliament Building. Many residents and tourists pass through the square every day, but the church offers a quieter place away from the busy streets.</p>
+        <p>Visitors can step inside, admire the details and learn more about the religious and architectural history of Budapest. The building is a good example of how Baroque architecture influenced the city during the eighteenth century.</p>
+        <p class="opinion">In my opinion, Saint Anne’s Church is worth visiting because it combines history, art and a peaceful atmosphere. It is also a great stop during a walk along the Buda riverbank.</p>
+      </div>
+    </article>
+    <article class="item-card" id="hely-5">
+      <div class="item-head">
+        <span class="item-num">5</span>
+        <h3>
+          <span class="lang-hu">Magyar Tudományos Akadémia</span>
+          <span class="lang-en">Hungarian Academy of Sciences</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Magyar Tudományos Akadémia Budapest egyik legismertebb és legfontosabb tudományos intézménye. Története 1825-ben kezdődött, amikor Széchenyi István felajánlást tett egy magyar tudós társaság létrehozására. Az intézmény célja a magyar nyelv, a tudomány és a művelődés támogatása volt.</p>
+        <p>Az Akadémia székháza a Duna-parton, a Lánchíd pesti hídfőjének közelében található. Az épületet Friedrich August Stüler tervei alapján építették, és 1865-ben nyitották meg. Neoreneszánsz stílusú homlokzata, díszes termei és művészi részletei miatt Budapest egyik jelentős műemléke.</p>
+        <p>Az Akadémia hosszú idő óta fontos szerepet játszik a magyar tudományos életben. Kutatókat, tudósokat és szakembereket kapcsol össze, valamint támogatja a különböző tudományterületek fejlődését. Az épületben található termek és díszítések a magyar kulturális örökség értékes részei.</p>
+        <p>A környék is különösen szép, hiszen a Duna-parti sétányról kilátás nyílik a budai oldalra és a Lánchídra. A Magyar Tudományos Akadémia azért fontos látványosság, mert nemcsak szép épület, hanem a magyar tudomány és gondolkodás történetének jelképe is.</p>
+        <p class="opinion">Szerintem érdemes megismerni, mert jól mutatja, milyen jelentős szerepe van a tudásnak és az oktatásnak egy ország fejlődésében.</p>
+      </div>
+      <div class="lang-en">
+        <p>The Hungarian Academy of Sciences is one of the most important scientific institutions in Budapest and in Hungary. Its history began in 1825, when Count István Széchenyi offered money to support the creation of a Hungarian learned society. The aim was to encourage the Hungarian language, science, education and culture.</p>
+        <p>The Academy’s impressive headquarters is located on the Pest side of the Danube, close to the Pest end of the Chain Bridge. The building was designed by Friedrich August Stüler and opened in 1865. Its Neo-Renaissance style, decorated halls and detailed façade make it an important architectural landmark.</p>
+        <p>For many generations, the Academy has supported scientific research and brought together researchers and experts from different fields. It has played an important role in the development of Hungarian science and education. The interior of the building also contains valuable artistic and historical details.</p>
+        <p>The location is especially attractive because visitors can enjoy views of the Danube, the Buda hills and the Chain Bridge. The Academy is more than a beautiful historic building: it represents the importance of knowledge, learning and scientific progress in Hungarian society.</p>
+        <p class="opinion">In my opinion, it is worth learning about because its history shows how one person’s support helped create an institution that has influenced the country for many years. It is an important part of Budapest’s cultural and intellectual heritage.</p>
+      </div>
+    </article>
+    <article class="item-card" id="hely-6">
+      <div class="item-head">
+        <span class="item-num">6</span>
+        <h3>
+          <span class="lang-hu">Alejandra’s Park</span>
+          <span class="lang-en">Alejandra’s Park</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>Az Alejandra’s Park néven említett hely egy parkos, pihenésre alkalmas városi területként mutatható be. Budapest belvárosában a kisebb zöldterületek különösen fontosak, mert lehetőséget adnak arra, hogy az emberek kis időre eltávolodjanak a forgalmas utcáktól és a város zajától. Egy ilyen parkban a látogatók sétálhatnak, leülhetnek pihenni, beszélgethetnek, vagy egyszerűen csak élvezhetik a környezetet.</p>
+        <p>A zöld növények és a fák kellemesebbé teszik a városi környezetet, árnyékot adnak, és hozzájárulnak a tisztább, élhetőbb közterületek kialakításához. A parkok a helyi lakosok és a turisták számára is hasznosak, hiszen nem mindenki szeretne folyamatosan múzeumokat vagy nagyobb nevezetességeket látogatni. Sokszor egy rövid séta vagy néhány perc pihenés is kellemes része lehet egy városnézésnek.</p>
+        <p>A kisebb közösségi terek találkozási pontként is működhetnek, ahol az emberek összejöhetnek és időt tölthetnek egymással. Egy park értékét nemcsak a mérete vagy a híres látnivalók adják, hanem az is, hogy mennyire használható a mindennapokban.</p>
+        <p class="opinion">Szerintem az ilyen zöldterületek fontos részei Budapestnek, mert nyugodtabbá és barátságosabbá teszik a városi életet. Meglátogatásuk jó lehetőség egy kis kikapcsolódásra a sűrű programok között.</p>
+      </div>
+      <div class="lang-en">
+        <p>Alejandra’s Park can be described as an urban green space where people can take a break from the busy streets of Budapest. Small parks and green areas are important in a large city because they provide places to relax, walk and spend time outdoors. Visitors can sit on a bench, talk with friends, read a book or simply enjoy the plants and trees around them. Green spaces make the urban environment more pleasant and can provide shade on warm days.</p>
+        <p>They are useful for both local residents and tourists, because sightseeing can sometimes be tiring and people need a quiet place to rest. A park can also become a meeting point for people who live or work nearby. It gives the neighbourhood a friendlier atmosphere and offers a simple way to enjoy nature without leaving the city. Even a small green area can make a difference to the quality of urban life.</p>
+        <p>Parks are not important only because of their size or famous attractions; they are also valuable because people can use them every day. They can provide space for short walks, conversations and peaceful moments.</p>
+        <p class="opinion">In my opinion, Alejandra’s Park is worth including in a city visit as a place to slow down and take a break. It represents the importance of green public spaces in a modern city and reminds visitors that Budapest is not only about historic buildings and busy streets, but also about places where people can relax.</p>
+      </div>
+    </article>
+    <article class="item-card" id="hely-7">
+      <div class="item-head">
+        <span class="item-num">7</span>
+        <h3>
+          <span class="lang-hu">Széchenyi Lánchíd</span>
+          <span class="lang-en">Széchenyi Chain Bridge</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Széchenyi Lánchíd Budapest egyik legismertebb jelképe, amely összeköti a Duna két partján fekvő Budát és Pestet. A híd építése 1839-ben kezdődött, és 1849-ben adták át. Ez volt az első állandó híd, amely összekötötte a két városrészt, ezért nagy szerepet játszott Budapest fejlődésében. A híd megépítésének egyik legfontosabb támogatója Széchenyi István volt, akinek a nevét ma is viseli.</p>
+        <p>A tervező William Tierney Clark volt, az építési munkálatokat pedig Clark Ádám irányította. A Lánchíd különleges látványát a hatalmas kőpilléreken átívelő láncszerkezet és a hídfőknél álló oroszlánszobrok adják. A híd a történelem során több nehéz időszakot is átélt. A második világháború végén súlyosan megrongálódott, majd újjáépítették, és 1949-ben ismét megnyitották.</p>
+        <p>Később felújításokra is szükség volt, hogy biztonságosan használható maradjon. Ma a Lánchíd Budapest egyik legfontosabb látványossága, amelyről gyönyörű kilátás nyílik a Dunára, a Parlamentre, a budai Várra és a város más híres épületeire.</p>
+        <p class="opinion">Szerintem a Lánchíd azért különleges, mert nemcsak közlekedési útvonal, hanem a magyar történelem, az összetartozás és Budapest fejlődésének jelképe is.</p>
+      </div>
+      <div class="lang-en">
+        <p>The Széchenyi Chain Bridge is one of the most famous symbols of Budapest. It connects Buda and Pest across the Danube River and has played an important role in the development of the city. Construction began in 1839, and the bridge opened in 1849. It was the first permanent bridge connecting the two sides of the city, making travel and trade much easier.</p>
+        <p>Count István Széchenyi was one of the most important supporters of the project, and the bridge was named after him. It was designed by the English engineer William Tierney Clark, while the construction work was supervised by Adam Clark. The bridge is famous for its large stone pillars, suspension chains and the stone lion statues at its entrances. It has also witnessed important historical events.</p>
+        <p>At the end of the Second World War, the bridge was badly damaged, but it was rebuilt and reopened in 1949. Since then, it has been renovated to keep it safe and in good condition. Today, the Chain Bridge is one of the most popular sights in Budapest. Visitors can enjoy wonderful views of the Danube, the Parliament Building, Buda Castle and the surrounding city.</p>
+        <p>It is also an important part of the city’s identity and appears in many photographs of the capital.</p>
+        <p class="opinion">In my opinion, the Chain Bridge is special because it is not only a way to cross the river but also a symbol of connection, progress and Hungarian history.</p>
+      </div>
+    </article>
+    <article class="item-card" id="hely-8">
+      <div class="item-head">
+        <span class="item-num">8</span>
+        <h3>
+          <span class="lang-hu">Szabadság tér</span>
+          <span class="lang-en">Liberty Square</span>
+        </h3>
+      </div>
+      <div class="lang-hu">
+        <p>A Szabadság tér Budapest belvárosának egyik jelentős és történelmi hangulatú tere. A tér a Parlament közelében található, és több fontos épület veszi körül. A környék története a 19. század végéhez kapcsolódik, amikor a korábban itt álló Újépületet lebontották, és kialakították a mai teret. A Szabadság tér különlegessége, hogy egyszerre találhatók rajta történelmi emlékművek, jelentős középületek és zöld területek.</p>
+        <p>Itt áll például a Magyar Nemzeti Bank impozáns épülete, valamint a régi Tőzsdepalota, amely ma is meghatározó része a tér látványának. A téren emlékművek is találhatók, amelyek különböző történelmi korszakokra és eseményekre emlékeztetnek. Ezek közül az egyik legismertebb a második világháborúhoz kapcsolódó szovjet emlékmű. A tér másik ismert szobra Ronald Reagan egykori amerikai elnöknek állít emléket.</p>
+        <p>A Szabadság tér nemcsak történelmi jelentősége miatt érdekes, hanem azért is, mert kellemes hely egy rövid sétára vagy pihenésre. A parkosított részek, a padok és a környező épületek különleges hangulatot teremtenek.</p>
+        <p class="opinion">Szerintem a tér azért fontos látványosság, mert több korszak történelmét mutatja be egyetlen helyen. A látogatók egyszerre ismerhetik meg Budapest építészetét, emlékműveit és a magyar történelem egyes eseményeit.</p>
+      </div>
+      <div class="lang-en">
+        <p>Liberty Square is an important historic square in the centre of Budapest. It is located close to the Hungarian Parliament Building and is surrounded by several impressive buildings. The history of the square is connected with the late nineteenth century, when the large building known as the Újépület was demolished and the area was transformed into a public square.</p>
+        <p>Today, Liberty Square is interesting because it combines monuments, important public buildings and green spaces. One of its best-known buildings is the headquarters of the Hungarian National Bank. The former Stock Exchange Palace is another impressive building that strongly influences the appearance of the square.</p>
+        <p>There are also several monuments that represent different periods and events in history. One of the most well-known is the Soviet war memorial, which is connected with the Second World War. Another famous monument is the statue of former American president Ronald Reagan.</p>
+        <p>The square is not only an important historical location but also a pleasant place for walking and relaxing. Its trees, benches and open spaces create a calm atmosphere in the middle of the busy city centre. Visitors can admire the architecture, look at the monuments and learn about different parts of Hungary’s past.</p>
+        <p class="opinion">In my opinion, Liberty Square is worth visiting because it brings together history, politics and architecture in one place. It shows how public spaces can preserve memories while remaining useful parts of everyday city life.</p>
+      </div>
+    </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <span class="lang-hu">Kolodko Mihály – Élete és munkássága</span>
+    <span class="lang-en">Mihály Kolodko – His Life and Work</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
