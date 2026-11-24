@@ -74,3 +74,37 @@ A Balta Kolodko Mihály egyik legérdekesebb történetű miniszobra. Egy apró 
  8. Pinocchio
 
 Pinocchio egy világhírű mesefigura, akit Carlo Collodi olasz író történetéből ismerhetünk. A fabábu legismertebb tulajdonsága, hogy minden alkalommal megnő az orra, amikor hazudik. Kolodko Mihály ezt a karaktert is megjelenítette egy apró köztéri szoborban. A történet eredetileg gyerekeknek szól, de fontos tanulságokat tartalmaz az őszinteségről és a felelősségvállalásról is. Pinocchio a mese során sok hibát követ el, de idővel megtanulja, hogyan kell helyesen viselkedni. A figura azért vált ennyire ismertté, mert a története egyszerűen érthető, mégis minden korosztály számára tartogat mondanivalót. Szerintem jó választás volt Kolodko részéről, hiszen Pinocchio egy olyan karakter, akit szinte mindenki felismer, és akiről mindenkinek eszébe jut valami a gyerekkorából.
+
+English version 
+
+ 1. No Compote
+
+No Compote is one of Mihály Kolodko's humorous but also thought-provoking artworks. The statue depicts a Russian soldier hiding in a pantry. Its name refers to the famous Hungarian film *The Corporal and the Others*, in which the well-known sentence can be heard: "The Russians are already in the pantry." However, the statue does not only remind people of the film, but also refers to the Russian-Ukrainian war. With this artwork, Kolodko shows that serious topics can also be discussed through humour. I like it because at first it seems funny, but when we think about it more deeply, it has a much more serious meaning.
+
+ 2. Főkukac (II.)
+
+Főkukac is one of the best-known characters in Hungarian cartoons, brought to life by Mihály Kolodko in the form of a small bronze statue. The character may be familiar from the Hungarian cartoon series *The Great Ho-Ho-Ho Fisherman*. The statue is located on the Danube riverbank in Budapest and represents a character connected to fishing. It is especially interesting that such a simple and friendly figure can also have a place in public art. Many people remember the cartoon from their childhood, so the statue can bring back pleasant memories. In my opinion, this is one of Kolodko's cutest artworks because it does not try to be too serious. It simply brings a smile to people's faces. The location along the Danube also suits the character very well.
+
+ 3. Dirty Fred, the Captain
+
+Dirty Fred, the Captain is one of the best-known fictional characters created by Jenő Rejtő. The unusual-looking captain became popular because of his adventurous stories and distinctive sense of humour. Mihály Kolodko also immortalised this character in a miniature statue, bringing the literary figure from the pages of books into the streets of Budapest. One of the greatest strengths of Jenő Rejtő's works is that even the strangest situations are presented in a humorous way. Dirty Fred fits perfectly into this world because he is not a traditional hero, but rather an eccentric and often unpredictable character. The statue is also interesting because it does not represent a historical person or a famous building, but a fictional character. I think that through this artwork, Kolodko also draws attention to the love of reading and Hungarian literature.
+
+ 4. Libido (Balloon Dog with a Bone)
+
+Libido is a miniature statue in the shape of a balloon dog holding a bone in its mouth. At first glance, it looks as if it were made from an ordinary balloon twisted at an event, but it is actually a metal sculpture. What makes the artwork special is that it turns a simple, playful idea into a work of art. Its appearance may also remind us of the famous artwork *Balloon Dog* by American artist Jeff Koons. The name is also interesting, as the word "libido" is generally associated with human desires, which makes the title even more humorous. Like many of Kolodko Mihály's other works, this sculpture does not follow traditional sculptural methods. I think this artwork is a good example of creativity because it shows that even an everyday object can become art if someone looks at it from a different perspective.
+
+ 5. Rubik's Cube (II.)
+
+The Rubik's Cube is one of Hungary's best-known inventions, so it is not surprising that Mihály Kolodko also created a miniature statue of it. The puzzle was invented by Ernő Rubik in 1974, and since then, countless people around the world have tried to solve it. The statue shows a Rubik's Cube that looks as if it is just about to roll away. This small detail makes the artwork look more dynamic. At first, the cube seems like a simple toy, but solving it requires logical thinking and a lot of practice. Today, the invention has become one of the symbols of Hungarian creativity. I like this statue because it does not simply represent a toy, but reminds us of a Hungarian invention that is known almost all over the world.
+
+ 6. Sad Tank
+
+The Sad Tank is one of Mihály Kolodko's artworks with a more serious message. The special feature of the small tank is that its cannon points downwards, making it look as if it were sad. The inscription "Russians, go home!" can be seen on its side, referring to the Hungarian Revolution of 1956. The tank represents war and military occupation, but its lowered cannon may symbolise the desire for peace. The artwork is interesting because it reminds us of an important historical event in Hungary's past. Although the statue is only a few centimetres tall, its meaning is much greater than its size might suggest. I think this shows one of the most important characteristics of Kolodko's art: even his smallest works can communicate serious ideas.
+
+ 7. Axe
+
+The Axe is one of Mihály Kolodko's miniature statues with the most interesting background stories. It depicts a small axe resting on an elegant cushion. At first, people might not understand why such an everyday object has been placed in the middle of the city. The story is connected to one of Kolodko's earlier statues, the Ushanka. The original artwork was removed from its location by someone and thrown into the Danube. The artist responded to this incident by creating the axe, which was placed where the Ushanka had previously stood. In this way, the Axe became a kind of artistic response to the vandalism. I like this idea because Kolodko did not simply create another statue, but turned the incident itself into part of his art. This shows that his works often respond to events happening around us.
+
+ 8. Pinocchio
+
+Pinocchio is a world-famous fairy-tale character from the story written by Italian author Carlo Collodi. The wooden puppet is best known for his nose growing every time he tells a lie. Mihály Kolodko also brought this character to life in the form of a small public statue. The story was originally written for children, but it also contains important lessons about honesty and taking responsibility. During the story, Pinocchio makes many mistakes, but eventually learns how to behave properly. The character became so famous because his story is easy to understand, yet it has a message for people of all ages. I think Pinocchio was a good choice for Kolodko because he is a character that almost everyone recognises and who reminds many people of their childhood.
