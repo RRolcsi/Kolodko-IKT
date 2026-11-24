@@ -23,3 +23,5 @@ Források :
   https://www.noklapja.hu/hetilap/2024/08/24/a-papahoz-is-eljutott-egy-alkotasa-beszelgetes-kolodko-mihaly-szobraszmuvesszel/
 
   https://meglepetes.hu/riportok/2018/09/07/kolodko-mihaly-a-lakasban-ezek-a-figurak-megfulladnanak/
+
+  https://wireframe.cc/IOfbvN
