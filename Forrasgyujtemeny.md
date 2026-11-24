@@ -10,4 +10,4 @@ Források :
   
   https://kolodkostatues.hu/szobrok/varos/budapest – Budapest összes Kolodko-miniszobra.
 
-  chatgpt.com
+  https://chatgpt.com/
