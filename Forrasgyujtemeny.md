@@ -11,3 +11,7 @@ Források :
   https://kolodkostatues.hu/szobrok/varos/budapest – Budapest összes Kolodko-miniszobra.
 
   https://chatgpt.com/
+
+  https://kolodkostatues.hu/terkep
+
+  https://maps.app.goo.gl/5UpSD1GcegRXmhpr8
