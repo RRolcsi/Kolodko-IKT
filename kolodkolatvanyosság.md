@@ -9,9 +9,16 @@ Főkukac (II.)
 Szomorú tank
   Szent Anna templom
 
-Kolodko: Piszkos Fred
+ piszkos Fred
   Magyar Tudományos Akadémia
 
 Pinocchio
   ALEJANDRA’S PARK
   lánchíd
+
+Libidó (Lufikutya csonttal)
+
+Rubik-kocka (II.)
+
+Balta
+  Szabadság tér
