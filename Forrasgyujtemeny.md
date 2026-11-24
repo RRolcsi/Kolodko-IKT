@@ -24,4 +24,6 @@ Források :
 
   https://meglepetes.hu/riportok/2018/09/07/kolodko-mihaly-a-lakasban-ezek-a-figurak-megfulladnanak/
 
-  https://wireframe.cc/IOfbvN
+  https://wireframe.cc/IOfbvN - Utvonal
+
+  https://wireframe.cc/W451oF - Kolodko Mihály élete és munkássága
