@@ -1,0 +1,182 @@
+:root {
+  --bg: #F9F8F6;
+  --soft: #EFE9E3;
+  --line: #D9CFC7;
+  --accent: #C9B59C;
+  --ink: #302c28;
+  --muted: #756d65;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.75;
+}
+
+/* Navigáció */
+.site-nav {
+  min-height: 74px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(249, 248, 246, .94);
+  padding: 0;
+}
+
+.logo {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.nav-right {
+  gap: 25px;
+}
+
+.nav-right a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-right a:hover {
+  color: var(--ink);
+}
+
+.lang-btn {
+  border: 1px solid var(--line);
+  background: var(--soft);
+  padding: 9px 17px;
+  border-radius: 999px;
+  color: var(--ink);
+  cursor: pointer;
+  font-weight: 700;
+  transition: .2s;
+}
+
+.lang-btn:hover {
+  background: var(--accent);
+}
+
+/* Fejléc */
+.hero {
+  min-height: 330px;
+  padding: 75px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--soft);
+}
+
+.hero-inner {
+  max-width: 850px;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(46px, 7vw, 76px);
+  font-weight: 400;
+  line-height: 1.08;
+  margin: 0 0 13px;
+  letter-spacing: -1.5px;
+}
+
+.hero p {
+  font-family: Georgia, serif;
+  font-size: 21px;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Tartalom */
+main {
+  max-width: 1000px;
+  padding: 62px 26px 100px;
+}
+
+.intro {
+  text-align: center;
+  margin: 0 auto 28px;
+  max-width: 800px;
+}
+
+.intro h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.essay-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  padding: clamp(26px, 5vw, 58px);
+  box-shadow: 0 16px 45px rgba(65, 49, 34, .08);
+}
+
+.essay-card p {
+  margin: 0 0 22px;
+  color: #49433d;
+  font-size: 16px;
+  line-height: 1.95;
+}
+
+.essay-card p:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  border-top: 1px solid var(--line);
+  padding: 28px 24px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* Nyelvváltás: alapból a magyar látszik, angolnál az angol */
+.lang-en {
+  display: none;
+}
+
+body.en .lang-hu {
+  display: none;
+}
+
+body.en .lang-en {
+  display: revert;
+}
+
+@media (max-width: 700px) {
+  .nav-right {
+    gap: 14px;
+  }
+
+  .nav-right a {
+    font-size: 12px;
+  }
+
+  .hero {
+    min-height: 270px;
+    padding: 60px 20px;
+  }
+
+  main {
+    padding: 42px 16px 65px;
+  }
+
+  .essay-card {
+    border-radius: 20px;
+    padding: 24px 21px;
+  }
+
+  .essay-card p {
+    font-size: 15px;
+    line-height: 1.85;
+  }
+}
